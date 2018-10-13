@@ -55,4 +55,4 @@ if  __name__ == "__main__":
     if ( len( sys.argv ) >= 1 + len( parameters_list ) ):
         prepare( sys.argv )
     else:
-        cmn.gauss_help( sys.argv[ 0 ], parameters_list )
+        cmn.show_help( sys.argv[ 0 ], parameters_list )
